@@ -1,3 +1,0 @@
----
----
-{"questions": [{% for post in site.tags.question %}{{post | json}}{% unless forloop.last %},{% endunless %}{% endfor %}]}

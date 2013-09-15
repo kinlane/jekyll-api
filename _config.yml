@@ -5,15 +5,15 @@ lsi: false
 pygments: true
 auto: true
 
-source: dev-hub
-destination: dev-hub
+source: jekyll-api
+destination: jekyll-api
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-production_url : http://kinlane.github.io/dev-hub/
+production_url : http://kinlane.github.io/jekyll-api/
 
-BASE_PATH : http://kinlane.github.io/dev-hub/
+BASE_PATH : http://kinlane.github.io/jekyll-api/
 
 archive_path: /archive.html
 categories_path : /categories.html

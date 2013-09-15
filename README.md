@@ -1,4 +1,4 @@
-Dev-Hub
+Jekyll API
 =======
 
-This is a template developer hub to show what is possible when you launch an API and data portal on Github.
+This is a prototype jekyll API.

@@ -1,3 +1,0 @@
----
----
-{"glossary": [{% for post in site.tags.glossary %}{{post | json}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
