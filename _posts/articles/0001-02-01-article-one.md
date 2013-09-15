@@ -1,7 +1,7 @@
 ---
 published: true
 title: "Article One"
-layout: basic
+layout: article
 categories: null
 tags: 
   - one
