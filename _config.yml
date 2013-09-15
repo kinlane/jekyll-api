@@ -1,4 +1,4 @@
-title : PIF @ VA
+title : Jekyll API
 
 safe: true
 lsi: false
@@ -12,6 +12,4 @@ permalink: /:categories/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 production_url : http://kinlane.github.io/jekyll-api/
-
-BASE_PATH : http://kinlane.github.io/jekyll-api/
 

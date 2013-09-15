@@ -8,7 +8,7 @@ module Jekyll
       @name = 'index.html'
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
+      self.read_yaml(File.join(base, '_layouts'), 'categories.html')
       self.data['category'] = category
 
       category_title_prefix = site.config['category_title_prefix'] || 'Category: '
