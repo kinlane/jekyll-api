@@ -2,7 +2,6 @@
 published: true
 title: "Article Three"
 type: article
-layout: article
 categories: two
 tags: 
   - two

@@ -2,7 +2,6 @@
 published: true
 title: "Article One"
 type: article
-layout: article
 categories: one
 tags: 
   - one
