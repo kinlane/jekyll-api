@@ -1,3 +1,3 @@
 ---
 ---
-{"articles": [{% for post in site.posts %}{% if post.layout == 'article' %}{"title":{{post.title | json}},"body":{{post.content | json}}},{% endif %}{% endfor %}false]}
+{"articles": [{% for post in site.posts %}{% if post.layout == 'article' %}{"title":{{post.title}},"body":{{post.content | strip_newlines | cgi_escape}}},{% endif %}{% endfor %}false]}
