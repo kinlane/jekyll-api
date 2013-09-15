@@ -1,10 +1,3 @@
 ---
 ---
-{
-"articles": 
-	[{% for post in site.posts %}{% if post.layout == 'article' %}
-	{
-	"title":"{{post.title}}",
-	"body":"{{post.content | escape | newline_to_br}}"},
-	{% endif %}{% endfor %}false]
-}
+{"articles":[{% for post in site.posts %}{% if post.layout == 'article' %}{"title":"{{post.title}}","body":"{{post.content | newline_to_br | escape}}"},{% endif %}{% endfor %}false]}
