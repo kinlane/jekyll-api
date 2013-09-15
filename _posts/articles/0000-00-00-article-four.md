@@ -2,6 +2,7 @@
 published: true
 title: "Article Four"
 type: article
+layout: article
 categories: two
 tags: 
   - two
