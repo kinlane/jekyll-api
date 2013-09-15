@@ -8,7 +8,7 @@ auto: true
 source: jekyll-api
 destination: jekyll-api
 
-permalink: /:categories
+permalink: /:type/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 production_url : http://kinlane.github.io/jekyll-api/
