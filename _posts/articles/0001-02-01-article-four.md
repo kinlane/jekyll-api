@@ -2,7 +2,7 @@
 published: true
 title: "Article Four"
 layout: article
-categories: null
+categories: two
 tags: 
   - two
 ---

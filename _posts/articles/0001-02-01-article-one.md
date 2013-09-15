@@ -2,7 +2,7 @@
 published: true
 title: "Article One"
 layout: article
-categories: null
+categories: one
 tags: 
   - one
 ---
